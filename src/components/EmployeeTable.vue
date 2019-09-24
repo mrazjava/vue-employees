@@ -1,6 +1,9 @@
 <template>
   <div id="employee-table">
-    <table>
+    <p v-if="employees.length < 1" class="empty-table">
+        no employees
+    </p>
+    <table v-else>
       <thead>
         <tr>
           <th>Employee name</th>
