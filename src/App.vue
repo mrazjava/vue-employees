@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="small-container">
     <h1>Employees</h1>
-    <employee-form />
+    <employee-form @add:employee="addEmployee" />
     <employee-table :employees="employees" />
   </div>
 </template>
@@ -36,8 +36,12 @@
         },
       ],
     }
-  },
-
+    },
+    methods: {
+      addEmployee(employee) {
+        this.employees = [...this.employees, employee]
+      }
+    },
   }
 </script>
 
