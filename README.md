@@ -2,10 +2,8 @@
 
 A trivial (but very useful) [tutorial](https://www.taniarascia.com/getting-started-with-vue/) about `vue.js`.
 
-<p align="center">
 <img src="/screenshots/vue-employees.png" width="700" alt="Employee Listing" /> 
 > *Application running on localhost*
-</p>
 
 This is example of my self-induced exposure to the front-end in general and curiosity about `vue` in particular. As I 
 spend vast majority of my coding time on the backend, I usually don't get a chance to do any front end work, let alone 
